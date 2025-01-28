@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "Sora"
+version = "0.1.0"
+description = ""
+authors = ["Yoiduki"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+arxiv = "^1.4.8"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
